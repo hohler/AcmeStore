@@ -5,7 +5,7 @@ public class CD implements IArticle {
 	private String artist;
 	
 	private String description;
-	private int price;
+	private double price;
 	private int year;
 	
 	public String getArtist()  {
@@ -27,12 +27,12 @@ public class CD implements IArticle {
 	}
 
 	@Override
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
 	@Override
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 

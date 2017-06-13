@@ -3,7 +3,7 @@ package model;
 public class Book implements IArticle {
 
 	private String description;
-	private int price;
+	private double price;
 	private int year;
 	
 	@Override
@@ -17,12 +17,12 @@ public class Book implements IArticle {
 	}
 
 	@Override
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
 	@Override
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 
