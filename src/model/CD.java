@@ -7,6 +7,7 @@ public class CD implements IArticle {
 	private String description;
 	private double price;
 	private int year;
+	private int quantity;
 	
 	public CD() {}
 	
@@ -48,6 +49,16 @@ public class CD implements IArticle {
 	@Override
 	public int getYear() {
 		return year;
+	}
+	
+	@Override
+	public int getQuantity() {
+		return quantity;
+	}
+
+	@Override
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 	@Override

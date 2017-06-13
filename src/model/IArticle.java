@@ -9,6 +9,9 @@ public interface IArticle {
 	public void setPrice(double price);
 	
 	public int getYear();
-	public void setYear(int year);	
+	public void setYear(int year);
+	
+	public int getQuantity();
+	public void setQuantity(int quantity);
 
 }

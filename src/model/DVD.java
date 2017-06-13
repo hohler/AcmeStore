@@ -5,6 +5,7 @@ public class DVD implements IArticle {
 	private String description;
 	private double price;
 	private int year;
+	private int quantity;
 	
 	public DVD() {}
 	
@@ -42,6 +43,16 @@ public class DVD implements IArticle {
 	@Override
 	public void setYear(int year) {
 		this.year = year;
+	}
+	
+	@Override
+	public int getQuantity() {
+		return quantity;
+	}
+
+	@Override
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 	
 	@Override
