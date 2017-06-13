@@ -52,11 +52,12 @@ public class Book implements IArticle {
 
 	@Override
 	public void setQuantity(int quantity) {
-		quantity = quantity;
+		this.quantity = quantity;
 	}
 
 	@Override
 	public String toString() {
+		System.out.println("toString() executing...");
 		return "[Book] Price: "+price+", Description: "+description;
 	}
 
