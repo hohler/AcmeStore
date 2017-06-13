@@ -2,6 +2,8 @@ package model;
 
 public class Book implements IArticle {
 
+	private String author;
+	private String title;
 	private String description;
 	private double price;
 	private int year;
@@ -9,7 +11,9 @@ public class Book implements IArticle {
 	
 	public Book() {}
 	
-	public Book(String description, int year, double price) {
+	public Book(String author, String title, String description, int year, double price) {
+		this.author = author;
+		this.title = title;
 		this.description = description;
 		this.price = price;
 		this.year = year;
@@ -55,10 +59,26 @@ public class Book implements IArticle {
 		this.quantity = quantity;
 	}
 
+	public String getAuthor() {
+		return author;
+	}
+
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
 	@Override
 	public String toString() {
 		System.out.println("toString() executing...");
-		return "[Book Price: "+price+", Description: "+description+", Year: "+year+", Quantity: "+quantity+"]";
+		return "[Book Title: "+title+", Author: "+author+", Price: "+price+", Description: "+description+", Year: "+year+", Quantity: "+quantity+"]";
 	}
 
 	
