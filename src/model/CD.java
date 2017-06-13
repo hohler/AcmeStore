@@ -13,7 +13,7 @@ public class CD implements IArticle {
 	}
 	
 	public void setArtist(String artist) {
-		artist = artist;
+		this.artist = artist;
 	}
 	
 	@Override
