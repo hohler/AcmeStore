@@ -8,6 +8,15 @@ public class CD implements IArticle {
 	private double price;
 	private int year;
 	
+	public CD() {}
+	
+	public CD(String artist, String description, int year, double price) {
+		this.artist = artist;
+		this.description = description;
+		this.price = price;
+		this.year = year;
+	}
+	
 	public String getArtist()  {
 		return artist;
 	}

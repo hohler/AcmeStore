@@ -6,6 +6,14 @@ public class DVD implements IArticle {
 	private double price;
 	private int year;
 	
+	public DVD() {}
+	
+	public DVD(String description, int year, double price) {
+		this.description = description;
+		this.price = price;
+		this.year = year;
+	}
+	
 	@Override
 	public String getDescription() {
 		return description;
