@@ -58,7 +58,7 @@ public class Book implements IArticle {
 	@Override
 	public String toString() {
 		System.out.println("toString() executing...");
-		return "[Book] Price: "+price+", Description: "+description;
+		return "[Book Price: "+price+", Description: "+description+", Year: "+year+", Quantity: "+quantity+"]";
 	}
 
 	

@@ -65,4 +65,11 @@ public class CD implements IArticle {
 	public void setYear(int year) {
 		this.year = year;
 	}
+	
+	@Override
+	public String toString() {
+		System.out.println("toString() executing...");
+		return "[CD Artist: "+artist+" Price: "+price
+				+", Description: "+description+", Year: "+year+", Quantity: "+quantity+"]";
+	}
 }

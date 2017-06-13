@@ -57,6 +57,6 @@ public class DVD implements IArticle {
 	
 	@Override
 	public String toString() {
-		return "[CD] Price: "+price+", Description: "+description;
+		return "[DVD Price: "+price+", Description: "+description+", Year: "+year+", Quantity: "+quantity+"]";
 	}
 }

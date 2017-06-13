@@ -37,4 +37,9 @@ public class Order {
 	public Customer getCustomer() {
 		return customer;
 	}
+	
+	@Override
+	public String toString() {
+		return "[Order Customer: "+customer+", number of articles: "+articles.size()+"]";
+	}
 }

@@ -57,7 +57,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "[Customer] First name: "+firstName+", last name: "
-				+lastName+", street: "+street+", post code: "+postCode+", town: "+town;
+		return "[Customer First name: "+firstName+", last name: "
+				+lastName+", street: "+street+", post code: "+postCode+", town: "+town+"]";
 	}
 }
