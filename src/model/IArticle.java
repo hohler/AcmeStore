@@ -7,5 +7,8 @@ public interface IArticle {
 	
 	public int getPrice();
 	public void setPrice(int price);
+	
+	public int getYear();
+	public void setYear(int year);
 
 }

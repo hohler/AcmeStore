@@ -4,6 +4,7 @@ public class Book implements IArticle {
 
 	private String description;
 	private int price;
+	private int year;
 	
 	@Override
 	public String getDescription() {
@@ -23,6 +24,16 @@ public class Book implements IArticle {
 	@Override
 	public void setPrice(int price) {
 		this.price = price;
+	}
+
+	@Override
+	public int getYear() {
+		return year;
+	}
+
+	@Override
+	public void setYear(int year) {
+		this.year = year;
 	}
 
 	@Override

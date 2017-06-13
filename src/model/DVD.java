@@ -4,6 +4,7 @@ public class DVD implements IArticle {
 	
 	private String description;
 	private int price;
+	private int year;
 	
 	@Override
 	public String getDescription() {
@@ -26,8 +27,17 @@ public class DVD implements IArticle {
 	}
 
 	@Override
+	public int getYear() {
+		return year;
+	}
+
+	@Override
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	@Override
 	public String toString() {
 		return "[CD] Price: "+price+", Description: "+description;
 	}
-
 }

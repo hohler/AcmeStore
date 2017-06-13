@@ -6,6 +6,7 @@ public class CD implements IArticle {
 	
 	private String description;
 	private int price;
+	private int year;
 	
 	public String getArtist()  {
 		return artist;
@@ -35,4 +36,13 @@ public class CD implements IArticle {
 		this.price = price;
 	}
 
+	@Override
+	public int getYear() {
+		return year;
+	}
+
+	@Override
+	public void setYear(int year) {
+		year = year;
+	}
 }
