@@ -18,7 +18,6 @@ public class Customers {
 		
 		Customer customer3 = new Customer("Marty", "McFly", "Time Travel Road 2015", 1111, "Universe");
 		f.add(customer3);
-		f.add(customer3);
 		
 		return f;
 	}
