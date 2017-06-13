@@ -1,6 +1,5 @@
-package model;
-
 import java.util.List;
+import model.IArticle;
 
 public class Store {
 
