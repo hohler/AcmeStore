@@ -43,6 +43,6 @@ public class CD implements IArticle {
 
 	@Override
 	public void setYear(int year) {
-		year = year;
+		this.year = year;
 	}
 }
