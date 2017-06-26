@@ -8,21 +8,21 @@ Store for CD, DVD, Book articles
 
 ## Issues
 
-| Commit | Type | Priority | Github Issue |
+| Introducing Commit | Fix Commit | Type | Priority | Github Issue |
 | ------ | ------ | ------ | ------ |
-| 6de5173cf6a91b638381669c013121b59ac94255 | bug | major | [#1](https://github.com/papagei9/AcmeStore/issues/1) |
-| 267c6ebb927e12c10aa5d777acc0409b19210ec3 | feature | trivial | [#2](https://github.com/papagei9/AcmeStore/issues/2) |
-| 131d40ce7961785bcf17e1480af7558e87374e41 | improvement | minor | [#3](https://github.com/papagei9/AcmeStore/issues/3) |
-| bea14e6c2d0263932f626972aedb67287b4516e1 | bug | blocker | [#4](https://github.com/papagei9/AcmeStore/issues/4) |
-| 00a6ce533e96e956b05e1b3b1249a1b1d74b25ed | bug | major | [#5](https://github.com/papagei9/AcmeStore/issues/5) |
-| 088382ba8eb73b9c6dcff3f9ddb8276c866aa5fa | improvement | minor | [#6](https://github.com/papagei9/AcmeStore/issues/6) |
-| abbaf768592f5b2bcb4b61b7ec3c4f5890831049 | improvement | major | [#7](https://github.com/papagei9/AcmeStore/issues/7) |
-| c7c5f4bb49a1de1715da9e933a3331cc4a6836a8 | improvement | minor | [#8](https://github.com/papagei9/AcmeStore/issues/8) |
-| 08e461a49ff2e7649ce2a337c3a740413613db61 | bug | major | [#9](https://github.com/papagei9/AcmeStore/issues/9) |
-| 15c4843dbc7263489ac1a1ec15728ef1e967e0e3 | bug | minor | [#10](https://github.com/papagei9/AcmeStore/issues/10) |
-| 4ee76ac608c07d3c77cd283546e658bf3ea91adc | feature | minor | [#11](https://github.com/papagei9/AcmeStore/issues/11) |
-| 7b993ef69f73f0cea351c4e5df93154ed6c86b0d | improvement | major | [#12](https://github.com/papagei9/AcmeStore/issues/12) |
-| 9fcf637d46f11bd6556f2bfc49b598dccefd45fb | refactor | major | [#13](https://github.com/papagei9/AcmeStore/issues/13) |
+| 5de615507d5ab9909c6e418376b87502f0688eb9 | 6de5173cf6a91b638381669c013121b59ac94255 | bug | major | [#1](https://github.com/papagei9/AcmeStore/issues/1) |
+| - | 267c6ebb927e12c10aa5d777acc0409b19210ec3 | feature | trivial | [#2](https://github.com/papagei9/AcmeStore/issues/2) |
+| - | 131d40ce7961785bcf17e1480af7558e87374e41 | improvement | minor | [#3](https://github.com/papagei9/AcmeStore/issues/3) |
+| 463091a2257fb4e3ab7b12a41cea84053d3cb709 | bea14e6c2d0263932f626972aedb67287b4516e1 | bug | blocker | [#4](https://github.com/papagei9/AcmeStore/issues/4) |
+| 267c6ebb927e12c10aa5d777acc0409b19210ec3 | 00a6ce533e96e956b05e1b3b1249a1b1d74b25ed | bug | major | [#5](https://github.com/papagei9/AcmeStore/issues/5) |
+| - | 088382ba8eb73b9c6dcff3f9ddb8276c866aa5fa | improvement | minor | [#6](https://github.com/papagei9/AcmeStore/issues/6) |
+| - | abbaf768592f5b2bcb4b61b7ec3c4f5890831049 | improvement | major | [#7](https://github.com/papagei9/AcmeStore/issues/7) |
+| - | c7c5f4bb49a1de1715da9e933a3331cc4a6836a8 | improvement | minor | [#8](https://github.com/papagei9/AcmeStore/issues/8) |
+| 088382ba8eb73b9c6dcff3f9ddb8276c866aa5fa | 08e461a49ff2e7649ce2a337c3a740413613db61 | bug | major | [#9](https://github.com/papagei9/AcmeStore/issues/9) |
+| c7c5f4bb49a1de1715da9e933a3331cc4a6836a8 | 15c4843dbc7263489ac1a1ec15728ef1e967e0e3 | bug | minor | [#10](https://github.com/papagei9/AcmeStore/issues/10) |
+| - | 4ee76ac608c07d3c77cd283546e658bf3ea91adc | feature | minor | [#11](https://github.com/papagei9/AcmeStore/issues/11) |
+| - | 7b993ef69f73f0cea351c4e5df93154ed6c86b0d | improvement | major | [#12](https://github.com/papagei9/AcmeStore/issues/12) |
+| - | 9fcf637d46f11bd6556f2bfc49b598dccefd45fb | refactor | major | [#13](https://github.com/papagei9/AcmeStore/issues/13) |
 
 ## Source metrics
 
