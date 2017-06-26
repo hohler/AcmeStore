@@ -9,7 +9,7 @@ Store for CD, DVD, Book articles
 ## Issues
 
 | Introducing Commit | Fix Commit | Type | Priority | Github Issue |
-| ------ | ------ | ------ | ------ |
+| ------ | ------ | ------ | ------ | ------ |
 | 5de615507d5ab9909c6e418376b87502f0688eb9 | 6de5173cf6a91b638381669c013121b59ac94255 | bug | major | [#1](https://github.com/papagei9/AcmeStore/issues/1) |
 | - | 267c6ebb927e12c10aa5d777acc0409b19210ec3 | feature | trivial | [#2](https://github.com/papagei9/AcmeStore/issues/2) |
 | - | 131d40ce7961785bcf17e1480af7558e87374e41 | improvement | minor | [#3](https://github.com/papagei9/AcmeStore/issues/3) |
